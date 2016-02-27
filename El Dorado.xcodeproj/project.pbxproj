@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A47DC8F1C80FB2200662F0D /* GenericNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A47DC8E1C80FB2200662F0D /* GenericNavViewController.swift */; };
+		7A47DC9E1C80FD3600662F0D /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7A47DC911C80FD3600662F0D /* LICENSE.txt */; };
+		7A47DC9F1C80FD3600662F0D /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A47DC921C80FD3600662F0D /* Roboto-Black.ttf */; };
+		7A47DCA01C80FD3600662F0D /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A47DC931C80FD3600662F0D /* Roboto-BlackItalic.ttf */; };
+		7A47DCA11C80FD3600662F0D /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A47DC941C80FD3600662F0D /* Roboto-Bold.ttf */; };
+		7A47DCA21C80FD3600662F0D /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A47DC951C80FD3600662F0D /* Roboto-BoldItalic.ttf */; };
+		7A47DCA31C80FD3600662F0D /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A47DC961C80FD3600662F0D /* Roboto-Italic.ttf */; };
+		7A47DCA41C80FD3600662F0D /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A47DC971C80FD3600662F0D /* Roboto-Light.ttf */; };
+		7A47DCA51C80FD3600662F0D /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A47DC981C80FD3600662F0D /* Roboto-LightItalic.ttf */; };
+		7A47DCA61C80FD3600662F0D /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A47DC991C80FD3600662F0D /* Roboto-Medium.ttf */; };
+		7A47DCA71C80FD3600662F0D /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A47DC9A1C80FD3600662F0D /* Roboto-MediumItalic.ttf */; };
+		7A47DCA81C80FD3600662F0D /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A47DC9B1C80FD3600662F0D /* Roboto-Regular.ttf */; };
+		7A47DCA91C80FD3600662F0D /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A47DC9C1C80FD3600662F0D /* Roboto-Thin.ttf */; };
+		7A47DCAA1C80FD3600662F0D /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A47DC9D1C80FD3600662F0D /* Roboto-ThinItalic.ttf */; };
+		7A68896C1C7E72F10004D236 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A68896B1C7E72F10004D236 /* AppDelegate.swift */; };
+		7A6889711C7E72F10004D236 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A68896F1C7E72F10004D236 /* Main.storyboard */; };
+		7A6889741C7E72F10004D236 /* El_Dorado.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A6889721C7E72F10004D236 /* El_Dorado.xcdatamodeld */; };
+		7A6889761C7E72F10004D236 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6889751C7E72F10004D236 /* Assets.xcassets */; };
+		7A6889791C7E72F10004D236 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A6889771C7E72F10004D236 /* LaunchScreen.storyboard */; };
+		7A6889841C7E72F10004D236 /* El_DoradoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6889831C7E72F10004D236 /* El_DoradoTests.swift */; };
+		7A68898F1C7E72F10004D236 /* El_DoradoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A68898E1C7E72F10004D236 /* El_DoradoUITests.swift */; };
+		7A6889A41C7F64230004D236 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6889A31C7F64230004D236 /* MainViewController.swift */; };
+		7A6889A81C7F647C0004D236 /* GenericViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6889A61C7F647C0004D236 /* GenericViewController.swift */; };
+		7A6889A91C7F647C0004D236 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6889A71C7F647C0004D236 /* ViewController.swift */; };
+		7A6889AD1C7F64830004D236 /* ExColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6889AB1C7F64830004D236 /* ExColors.swift */; };
+		7A6889AE1C7F64830004D236 /* ExFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6889AC1C7F64830004D236 /* ExFont.swift */; };
+		7A6889B31C7F96750004D236 /* bg_pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A6889B01C7F96750004D236 /* bg_pattern.png */; };
+		7A6889B41C7F96750004D236 /* bg_pattern@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A6889B11C7F96750004D236 /* bg_pattern@2x.png */; };
+		7A6889B51C7F96750004D236 /* bg_pattern@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A6889B21C7F96750004D236 /* bg_pattern@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A6889801C7E72F10004D236 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A6889601C7E72F10004D236 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A6889671C7E72F10004D236;
+			remoteInfo = "El Dorado";
+		};
+		7A68898B1C7E72F10004D236 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A6889601C7E72F10004D236 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A6889671C7E72F10004D236;
+			remoteInfo = "El Dorado";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A47DC8E1C80FB2200662F0D /* GenericNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GenericNavViewController.swift; path = Views/GenericNavViewController.swift; sourceTree = "<group>"; };
+		7A47DC911C80FD3600662F0D /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		7A47DC921C80FD3600662F0D /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		7A47DC931C80FD3600662F0D /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		7A47DC941C80FD3600662F0D /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		7A47DC951C80FD3600662F0D /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		7A47DC961C80FD3600662F0D /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		7A47DC971C80FD3600662F0D /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		7A47DC981C80FD3600662F0D /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		7A47DC991C80FD3600662F0D /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		7A47DC9A1C80FD3600662F0D /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		7A47DC9B1C80FD3600662F0D /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		7A47DC9C1C80FD3600662F0D /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		7A47DC9D1C80FD3600662F0D /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		7A6889681C7E72F10004D236 /* El Dorado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "El Dorado.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A68896B1C7E72F10004D236 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A6889701C7E72F10004D236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A6889731C7E72F10004D236 /* El_Dorado.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = El_Dorado.xcdatamodel; sourceTree = "<group>"; };
+		7A6889751C7E72F10004D236 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A6889781C7E72F10004D236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A68897A1C7E72F10004D236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A68897F1C7E72F10004D236 /* El DoradoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "El DoradoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A6889831C7E72F10004D236 /* El_DoradoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = El_DoradoTests.swift; sourceTree = "<group>"; };
+		7A6889851C7E72F10004D236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A68898A1C7E72F10004D236 /* El DoradoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "El DoradoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A68898E1C7E72F10004D236 /* El_DoradoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = El_DoradoUITests.swift; sourceTree = "<group>"; };
+		7A6889901C7E72F10004D236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A6889A31C7F64230004D236 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = Views/MainViewController.swift; sourceTree = "<group>"; };
+		7A6889A61C7F647C0004D236 /* GenericViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GenericViewController.swift; path = Views/GenericViewController.swift; sourceTree = "<group>"; };
+		7A6889A71C7F647C0004D236 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Views/ViewController.swift; sourceTree = "<group>"; };
+		7A6889AB1C7F64830004D236 /* ExColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExColors.swift; sourceTree = "<group>"; };
+		7A6889AC1C7F64830004D236 /* ExFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExFont.swift; sourceTree = "<group>"; };
+		7A6889B01C7F96750004D236 /* bg_pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_pattern.png; sourceTree = "<group>"; };
+		7A6889B11C7F96750004D236 /* bg_pattern@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_pattern@2x.png"; sourceTree = "<group>"; };
+		7A6889B21C7F96750004D236 /* bg_pattern@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_pattern@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A6889651C7E72F10004D236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A68897C1C7E72F10004D236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A6889871C7E72F10004D236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A47DC901C80FD3600662F0D /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				7A47DC911C80FD3600662F0D /* LICENSE.txt */,
+				7A47DC921C80FD3600662F0D /* Roboto-Black.ttf */,
+				7A47DC931C80FD3600662F0D /* Roboto-BlackItalic.ttf */,
+				7A47DC941C80FD3600662F0D /* Roboto-Bold.ttf */,
+				7A47DC951C80FD3600662F0D /* Roboto-BoldItalic.ttf */,
+				7A47DC961C80FD3600662F0D /* Roboto-Italic.ttf */,
+				7A47DC971C80FD3600662F0D /* Roboto-Light.ttf */,
+				7A47DC981C80FD3600662F0D /* Roboto-LightItalic.ttf */,
+				7A47DC991C80FD3600662F0D /* Roboto-Medium.ttf */,
+				7A47DC9A1C80FD3600662F0D /* Roboto-MediumItalic.ttf */,
+				7A47DC9B1C80FD3600662F0D /* Roboto-Regular.ttf */,
+				7A47DC9C1C80FD3600662F0D /* Roboto-Thin.ttf */,
+				7A47DC9D1C80FD3600662F0D /* Roboto-ThinItalic.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		7A68895F1C7E72F10004D236 = {
+			isa = PBXGroup;
+			children = (
+				7A68896A1C7E72F10004D236 /* El Dorado */,
+				7A6889821C7E72F10004D236 /* El DoradoTests */,
+				7A68898D1C7E72F10004D236 /* El DoradoUITests */,
+				7A6889691C7E72F10004D236 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A6889691C7E72F10004D236 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A6889681C7E72F10004D236 /* El Dorado.app */,
+				7A68897F1C7E72F10004D236 /* El DoradoTests.xctest */,
+				7A68898A1C7E72F10004D236 /* El DoradoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A68896A1C7E72F10004D236 /* El Dorado */ = {
+			isa = PBXGroup;
+			children = (
+				7A6889AF1C7F96750004D236 /* Assets */,
+				7A6889AA1C7F64830004D236 /* Extensions */,
+				7A6889A51C7F64290004D236 /* Views */,
+				7A68896B1C7E72F10004D236 /* AppDelegate.swift */,
+				7A68896F1C7E72F10004D236 /* Main.storyboard */,
+				7A6889751C7E72F10004D236 /* Assets.xcassets */,
+				7A6889771C7E72F10004D236 /* LaunchScreen.storyboard */,
+				7A68897A1C7E72F10004D236 /* Info.plist */,
+				7A6889721C7E72F10004D236 /* El_Dorado.xcdatamodeld */,
+			);
+			path = "El Dorado";
+			sourceTree = "<group>";
+		};
+		7A6889821C7E72F10004D236 /* El DoradoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A6889831C7E72F10004D236 /* El_DoradoTests.swift */,
+				7A6889851C7E72F10004D236 /* Info.plist */,
+			);
+			path = "El DoradoTests";
+			sourceTree = "<group>";
+		};
+		7A68898D1C7E72F10004D236 /* El DoradoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A68898E1C7E72F10004D236 /* El_DoradoUITests.swift */,
+				7A6889901C7E72F10004D236 /* Info.plist */,
+			);
+			path = "El DoradoUITests";
+			sourceTree = "<group>";
+		};
+		7A6889A51C7F64290004D236 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A6889A61C7F647C0004D236 /* GenericViewController.swift */,
+				7A6889A71C7F647C0004D236 /* ViewController.swift */,
+				7A6889A31C7F64230004D236 /* MainViewController.swift */,
+				7A47DC8E1C80FB2200662F0D /* GenericNavViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7A6889AA1C7F64830004D236 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7A6889AB1C7F64830004D236 /* ExColors.swift */,
+				7A6889AC1C7F64830004D236 /* ExFont.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7A6889AF1C7F96750004D236 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7A47DC901C80FD3600662F0D /* Roboto */,
+				7A6889B01C7F96750004D236 /* bg_pattern.png */,
+				7A6889B11C7F96750004D236 /* bg_pattern@2x.png */,
+				7A6889B21C7F96750004D236 /* bg_pattern@3x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A6889671C7E72F10004D236 /* El Dorado */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A6889931C7E72F10004D236 /* Build configuration list for PBXNativeTarget "El Dorado" */;
+			buildPhases = (
+				7A6889641C7E72F10004D236 /* Sources */,
+				7A6889651C7E72F10004D236 /* Frameworks */,
+				7A6889661C7E72F10004D236 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "El Dorado";
+			productName = "El Dorado";
+			productReference = 7A6889681C7E72F10004D236 /* El Dorado.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A68897E1C7E72F10004D236 /* El DoradoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A6889961C7E72F10004D236 /* Build configuration list for PBXNativeTarget "El DoradoTests" */;
+			buildPhases = (
+				7A68897B1C7E72F10004D236 /* Sources */,
+				7A68897C1C7E72F10004D236 /* Frameworks */,
+				7A68897D1C7E72F10004D236 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A6889811C7E72F10004D236 /* PBXTargetDependency */,
+			);
+			name = "El DoradoTests";
+			productName = "El DoradoTests";
+			productReference = 7A68897F1C7E72F10004D236 /* El DoradoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A6889891C7E72F10004D236 /* El DoradoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A6889991C7E72F10004D236 /* Build configuration list for PBXNativeTarget "El DoradoUITests" */;
+			buildPhases = (
+				7A6889861C7E72F10004D236 /* Sources */,
+				7A6889871C7E72F10004D236 /* Frameworks */,
+				7A6889881C7E72F10004D236 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A68898C1C7E72F10004D236 /* PBXTargetDependency */,
+			);
+			name = "El DoradoUITests";
+			productName = "El DoradoUITests";
+			productReference = 7A68898A1C7E72F10004D236 /* El DoradoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A6889601C7E72F10004D236 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jorgeovalle;
+				TargetAttributes = {
+					7A6889671C7E72F10004D236 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					7A68897E1C7E72F10004D236 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 7A6889671C7E72F10004D236;
+					};
+					7A6889891C7E72F10004D236 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 7A6889671C7E72F10004D236;
+					};
+				};
+			};
+			buildConfigurationList = 7A6889631C7E72F10004D236 /* Build configuration list for PBXProject "El Dorado" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A68895F1C7E72F10004D236;
+			productRefGroup = 7A6889691C7E72F10004D236 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A6889671C7E72F10004D236 /* El Dorado */,
+				7A68897E1C7E72F10004D236 /* El DoradoTests */,
+				7A6889891C7E72F10004D236 /* El DoradoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A6889661C7E72F10004D236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6889791C7E72F10004D236 /* LaunchScreen.storyboard in Resources */,
+				7A47DCA31C80FD3600662F0D /* Roboto-Italic.ttf in Resources */,
+				7A47DCA51C80FD3600662F0D /* Roboto-LightItalic.ttf in Resources */,
+				7A47DCA21C80FD3600662F0D /* Roboto-BoldItalic.ttf in Resources */,
+				7A6889761C7E72F10004D236 /* Assets.xcassets in Resources */,
+				7A47DCA61C80FD3600662F0D /* Roboto-Medium.ttf in Resources */,
+				7A47DCA11C80FD3600662F0D /* Roboto-Bold.ttf in Resources */,
+				7A6889B41C7F96750004D236 /* bg_pattern@2x.png in Resources */,
+				7A47DCA91C80FD3600662F0D /* Roboto-Thin.ttf in Resources */,
+				7A47DC9F1C80FD3600662F0D /* Roboto-Black.ttf in Resources */,
+				7A47DCA01C80FD3600662F0D /* Roboto-BlackItalic.ttf in Resources */,
+				7A6889711C7E72F10004D236 /* Main.storyboard in Resources */,
+				7A47DCA41C80FD3600662F0D /* Roboto-Light.ttf in Resources */,
+				7A47DCA71C80FD3600662F0D /* Roboto-MediumItalic.ttf in Resources */,
+				7A6889B31C7F96750004D236 /* bg_pattern.png in Resources */,
+				7A47DCA81C80FD3600662F0D /* Roboto-Regular.ttf in Resources */,
+				7A47DCAA1C80FD3600662F0D /* Roboto-ThinItalic.ttf in Resources */,
+				7A6889B51C7F96750004D236 /* bg_pattern@3x.png in Resources */,
+				7A47DC9E1C80FD3600662F0D /* LICENSE.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A68897D1C7E72F10004D236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A6889881C7E72F10004D236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A6889641C7E72F10004D236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6889AD1C7F64830004D236 /* ExColors.swift in Sources */,
+				7A6889A91C7F647C0004D236 /* ViewController.swift in Sources */,
+				7A47DC8F1C80FB2200662F0D /* GenericNavViewController.swift in Sources */,
+				7A6889A41C7F64230004D236 /* MainViewController.swift in Sources */,
+				7A6889AE1C7F64830004D236 /* ExFont.swift in Sources */,
+				7A68896C1C7E72F10004D236 /* AppDelegate.swift in Sources */,
+				7A6889A81C7F647C0004D236 /* GenericViewController.swift in Sources */,
+				7A6889741C7E72F10004D236 /* El_Dorado.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A68897B1C7E72F10004D236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6889841C7E72F10004D236 /* El_DoradoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A6889861C7E72F10004D236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A68898F1C7E72F10004D236 /* El_DoradoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A6889811C7E72F10004D236 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A6889671C7E72F10004D236 /* El Dorado */;
+			targetProxy = 7A6889801C7E72F10004D236 /* PBXContainerItemProxy */;
+		};
+		7A68898C1C7E72F10004D236 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A6889671C7E72F10004D236 /* El Dorado */;
+			targetProxy = 7A68898B1C7E72F10004D236 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A68896F1C7E72F10004D236 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A6889701C7E72F10004D236 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A6889771C7E72F10004D236 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A6889781C7E72F10004D236 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A6889911C7E72F10004D236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A6889921C7E72F10004D236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A6889941C7E72F10004D236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "El Dorado/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.jorgeovalle.El-Dorado";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7A6889951C7E72F10004D236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "El Dorado/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.jorgeovalle.El-Dorado";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7A6889971C7E72F10004D236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "El DoradoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.jorgeovalle.El-DoradoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/El Dorado.app/El Dorado";
+			};
+			name = Debug;
+		};
+		7A6889981C7E72F10004D236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "El DoradoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.jorgeovalle.El-DoradoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/El Dorado.app/El Dorado";
+			};
+			name = Release;
+		};
+		7A68899A1C7E72F10004D236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "El DoradoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.jorgeovalle.El-DoradoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "El Dorado";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7A68899B1C7E72F10004D236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "El DoradoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.jorgeovalle.El-DoradoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "El Dorado";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A6889631C7E72F10004D236 /* Build configuration list for PBXProject "El Dorado" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A6889911C7E72F10004D236 /* Debug */,
+				7A6889921C7E72F10004D236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A6889931C7E72F10004D236 /* Build configuration list for PBXNativeTarget "El Dorado" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A6889941C7E72F10004D236 /* Debug */,
+				7A6889951C7E72F10004D236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A6889961C7E72F10004D236 /* Build configuration list for PBXNativeTarget "El DoradoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A6889971C7E72F10004D236 /* Debug */,
+				7A6889981C7E72F10004D236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A6889991C7E72F10004D236 /* Build configuration list for PBXNativeTarget "El DoradoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A68899A1C7E72F10004D236 /* Debug */,
+				7A68899B1C7E72F10004D236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7A6889721C7E72F10004D236 /* El_Dorado.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7A6889731C7E72F10004D236 /* El_Dorado.xcdatamodel */,
+			);
+			currentVersion = 7A6889731C7E72F10004D236 /* El_Dorado.xcdatamodel */;
+			path = El_Dorado.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7A6889601C7E72F10004D236 /* Project object */;
+}
