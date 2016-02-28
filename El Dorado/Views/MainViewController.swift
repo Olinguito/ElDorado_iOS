@@ -50,7 +50,7 @@ class MainViewController: GenericViewController {
         imgProfile.layer.shadowColor = UIColor.blackColor().colorWithAlphaComponent(0.6).CGColor
         imgProfile.layer.shadowOffset = CGSize(width: 82, height: 82)
         imgProfile.layer.cornerRadius = 40
-        imgProfile.layer.masksToBounds = true   
+        imgProfile.layer.masksToBounds = true
         imgCover.addSubview(imgProfile)
         
         

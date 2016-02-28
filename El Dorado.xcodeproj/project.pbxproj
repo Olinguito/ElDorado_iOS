@@ -21,6 +21,8 @@
 		7A47DCA81C80FD3600662F0D /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A47DC9B1C80FD3600662F0D /* Roboto-Regular.ttf */; };
 		7A47DCA91C80FD3600662F0D /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A47DC9C1C80FD3600662F0D /* Roboto-Thin.ttf */; };
 		7A47DCAA1C80FD3600662F0D /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A47DC9D1C80FD3600662F0D /* Roboto-ThinItalic.ttf */; };
+		7A47DCAD1C827D5F00662F0D /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A47DCAC1C827D5F00662F0D /* QuestionViewController.swift */; };
+		7A47DCB01C82895300662F0D /* EDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A47DCAF1C82895300662F0D /* EDButton.swift */; };
 		7A68896C1C7E72F10004D236 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A68896B1C7E72F10004D236 /* AppDelegate.swift */; };
 		7A6889711C7E72F10004D236 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A68896F1C7E72F10004D236 /* Main.storyboard */; };
 		7A6889741C7E72F10004D236 /* El_Dorado.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A6889721C7E72F10004D236 /* El_Dorado.xcdatamodeld */; };
@@ -70,6 +72,8 @@
 		7A47DC9B1C80FD3600662F0D /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		7A47DC9C1C80FD3600662F0D /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		7A47DC9D1C80FD3600662F0D /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		7A47DCAC1C827D5F00662F0D /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuestionViewController.swift; path = Views/QuestionViewController.swift; sourceTree = "<group>"; };
+		7A47DCAF1C82895300662F0D /* EDButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EDButton.swift; sourceTree = "<group>"; };
 		7A6889681C7E72F10004D236 /* El Dorado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "El Dorado.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A68896B1C7E72F10004D236 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A6889701C7E72F10004D236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -138,6 +142,14 @@
 			path = Roboto;
 			sourceTree = "<group>";
 		};
+		7A47DCAE1C82843100662F0D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7A47DCAF1C82895300662F0D /* EDButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		7A68895F1C7E72F10004D236 = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +173,7 @@
 		7A68896A1C7E72F10004D236 /* El Dorado */ = {
 			isa = PBXGroup;
 			children = (
+				7A47DCAE1C82843100662F0D /* Components */,
 				7A6889AF1C7F96750004D236 /* Assets */,
 				7A6889AA1C7F64830004D236 /* Extensions */,
 				7A6889A51C7F64290004D236 /* Views */,
@@ -199,6 +212,7 @@
 				7A6889A71C7F647C0004D236 /* ViewController.swift */,
 				7A6889A31C7F64230004D236 /* MainViewController.swift */,
 				7A47DC8E1C80FB2200662F0D /* GenericNavViewController.swift */,
+				7A47DCAC1C827D5F00662F0D /* QuestionViewController.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -372,12 +386,14 @@
 			files = (
 				7A6889AD1C7F64830004D236 /* ExColors.swift in Sources */,
 				7A6889A91C7F647C0004D236 /* ViewController.swift in Sources */,
+				7A47DCB01C82895300662F0D /* EDButton.swift in Sources */,
 				7A47DC8F1C80FB2200662F0D /* GenericNavViewController.swift in Sources */,
 				7A6889A41C7F64230004D236 /* MainViewController.swift in Sources */,
 				7A6889AE1C7F64830004D236 /* ExFont.swift in Sources */,
 				7A68896C1C7E72F10004D236 /* AppDelegate.swift in Sources */,
 				7A6889A81C7F647C0004D236 /* GenericViewController.swift in Sources */,
 				7A6889741C7E72F10004D236 /* El_Dorado.xcdatamodeld in Sources */,
+				7A47DCAD1C827D5F00662F0D /* QuestionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

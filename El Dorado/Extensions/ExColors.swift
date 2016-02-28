@@ -8,6 +8,11 @@
 
 import UIKit
 
+
+enum EDColor{
+    case DarkGray,Green,Yellow,LightOrange,DarkOrange,Red
+}
+
 extension UIColor {
     /**
      EDDarkGray
@@ -64,4 +69,21 @@ extension UIColor {
         return UIColor(red:0.56, green:0.16, blue:0.06, alpha:1)
     }
 
+    
+    /**
+     Get Color by EDConfig
+     
+     - returns: Asked color
+     */
+    class func getColor(color:EDColor) -> UIColor {
+        switch(color){
+            case .DarkGray:    return darkGrayColor()
+            case .DarkOrange:  return EDDarkOrange()
+            case .Green:       return EDGreen()
+            case .LightOrange: return EDLightOrange()
+            case .Red:         return EDRed()
+            case .Yellow:      return EDYellow()
+        }
+    }
+    
 }
